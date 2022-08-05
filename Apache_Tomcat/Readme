@@ -1,1 +1,14 @@
-.
+System requirements 
+  Memory: 4GB 
+  VCPU: 2 (Recomended 4)
+  Volume: 64GB 
+
+Run tomcat in Docker container
+  Pre-requisites: Docker & Docker-compose
+  Install Docker & Docker-compose using the below link in Centos/RHEL/Debain/Ubuntu
+  https://github.com/devopslife999/Setup_Quick_Access/tree/main/Docker
+  
+  For Centos/RHEL linux, first give execution permission to centos_rhel_script.sh "chmod +x centos_rhel_script.sh" 
+      and execute script file ./centos_rhel_script.sh   
+  For Debain/Ubuntu linux, first give execution permissions to Debian_ubuntu_script.sh "chmod +x Debian_ubuntu_script.sh"
+      and execute script file ./Debian_ubuntu_script.sh
