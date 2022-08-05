@@ -11,3 +11,7 @@ Run Nexus in Docker container
   For Centos/RHEL linux execute "sudo docker compose.yml up -d" to run Nexus in docker container
   For Debain/Ubuntu linux execute "sudo docker-compose.yml up -d" to run Nexus in docker container
   Access Nexus server at 8081 port "localhost:8081 or <publicip>:8081"
+
+Nexus login details
+username: admin
+password: admin123
