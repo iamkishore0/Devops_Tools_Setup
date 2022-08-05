@@ -8,6 +8,11 @@ services:
       - 8090:8080
     volumes:
       - jenkins-vol:/var/jenkins_home
-
+    deploy:
+      resources:
+        limits:
+          memory: 3072M
+        reservations:
+          memory: 1024M
 volumes:
   jenkins-vol:
