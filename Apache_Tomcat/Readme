@@ -1,7 +1,7 @@
 System requirements 
   Memory: 4GB 
   VCPU: 2 (Recomended 4)
-  Volume: 64GB 
+  Volume: 32GB 
 
 Run tomcat in Docker container
   Pre-requisites: Docker & Docker-compose
