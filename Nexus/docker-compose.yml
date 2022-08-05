@@ -1,11 +1,18 @@
 version: "3.3"
 services:
-  nexus3:
+  nexus2:
     restart: always
     image: sonatype/nexus:2.15.0
     ports:
       - "8081:8081"
     volumes:
       - nexus-data:/nexus-data
+    deploy:
+      resources:
+        limits:
+          memory: 2560M
+        reservations:
+          memory: 800M
+    
 volumes:
     nexus-data:
