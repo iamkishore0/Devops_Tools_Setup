@@ -1,3 +1,8 @@
+System requirements 
+  Memory: 4GB 
+  VCPU: 2 (Recomended 4)
+  Volume: 64GB 
+
 Run Nexus in Docker container
   Pre-requisites: Docker & Docker-compose
   Install Docker & Docker-compose using the below link in Centos/RHEL/Debain/Ubuntu
