@@ -12,3 +12,8 @@ Run tomcat in Docker container
       and execute script file ./centos_rhel_script.sh   
   For Debain/Ubuntu linux, first give execution permissions to Debian_ubuntu_script.sh "chmod +x Debian_ubuntu_script.sh"
       and execute script file ./Debian_ubuntu_script.sh
+
+Access Tomcat at port 8082
+ "localhost:8082 or <public ip>:8082"
+ 
+ Tomcat login 
