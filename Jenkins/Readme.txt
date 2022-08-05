@@ -15,7 +15,8 @@ Install Jenkins in Debian/Ubuntu
   
 Run Jenkins in Docker container
   Pre-requisites: Docker & Docker-compose
-  Install Docker & Docker-compose using this link in Centos/RHEL/Debain/Ubuntu
+  Install Docker & Docker-compose using the below link in Centos/RHEL/Debain/Ubuntu
+  https://github.com/devopslife999/Setup_Quick_Access/tree/main/Docker
   
   For Centos/RHEL linux execute "sudo docker compose.yml up -d" to run jenkins in docker container
   For Debain/Ubuntu linux execute "sudo docker-compose.yml up -d" to run jenkins in docker container
