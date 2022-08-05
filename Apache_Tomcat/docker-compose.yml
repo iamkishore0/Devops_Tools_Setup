@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  tomcat-8:
+    container_name: tomcat
+    restart: always
+    image: mytomcat
+    ports:
+      - 8082:8080
+    volumes:
+      - tomcat-vol:/var/tomcat_home
+    deploy:
+      resources:
+        limits:
+          memory: 3072M
+        reservations:
+          memory: 1024M
+volumes:
+  tomcat-vol:
