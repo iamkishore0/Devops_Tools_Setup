@@ -16,4 +16,6 @@ Run tomcat in Docker container
 Access Tomcat at port 8082
  "localhost:8082 or <public ip>:8082"
  
- Tomcat login 
+Tomcat login details
+ user: admin
+ password: admin123
