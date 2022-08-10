@@ -18,7 +18,7 @@ Run Jenkins in Docker container
   Install Docker & Docker-compose using the below link in Centos/RHEL/Debain/Ubuntu
   https://github.com/devopslife999/Setup_Quick_Access/tree/main/Docker
   
-  For Centos/RHEL linux execute "sudo docker compose.yml up -d" to run jenkins in docker container
-  For Debain/Ubuntu linux execute "sudo docker-compose.yml up -d" to run jenkins in docker container
+  For Centos/RHEL linux execute "sudo docker compose up -d" to run jenkins in docker container
+  For Debain/Ubuntu linux execute "sudo docker-compose up -d" to run jenkins in docker container
   Access jenkins server at 8090 port "localhost:8090 or <publicip>:8090"
   
