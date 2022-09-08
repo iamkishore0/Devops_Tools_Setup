@@ -8,4 +8,6 @@ rm nexus-2.14.4-03/bin/nexus &&
 
 cp nexus nexus-2.14.4-03/bin/ &&
 
+chmod +x nexus-2.14.4-03/bin/nexus
+
 bash nexus-2.14.4-03/bin/nexus restart
