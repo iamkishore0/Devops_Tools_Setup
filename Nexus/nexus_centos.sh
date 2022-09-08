@@ -4,3 +4,6 @@ wget https://download.sonatype.com/nexus/oss/nexus-2.14.4-03-bundle.zip &&
 
 unzip nexus-2.14.4-03-bundle.zip &&
 
+rm nexus-2.14.4-03/bin/nexus &&
+
+cp nexus nexus-2.14.4-03/bin/
