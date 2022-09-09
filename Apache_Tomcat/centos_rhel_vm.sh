@@ -8,4 +8,4 @@ rm apache-tomcat-8.5.82/webapps/manager/META-INF/context.xml
 cp tomcat-users.xml apache-tomcat-8.5.82/conf/
 cp context.xml apache-tomcat-8.5.82/webapps/manager/META-INF/
 chmod 777 apache-tomcat-8.5.82/bin/startup.sh apache-tomcat-8.5.82/bin/shutdown.sh apache-tomcat-8.5.82/bin/catalina.sh
-./startup.sh
+./apache-tomcat-8.5.82/bin/startup.sh
