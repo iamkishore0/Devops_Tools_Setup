@@ -9,3 +9,4 @@ cp tomcat-users.xml apache-tomcat-8.5.85/conf/
 cp context.xml apache-tomcat-8.5.85/webapps/manager/META-INF/
 chmod 777 apache-tomcat-8.5.85/bin/startup.sh apache-tomcat-8.5.85/bin/shutdown.sh apache-tomcat-8.5.85/bin/catalina.sh
 ./apache-tomcat-8.5.85/bin/startup.sh
+echo "cd /root/Devops_Tools_Setup/Apache_Tomcat/apache-tomcat-8.5.85/bin && ./startup.sh" >> /root/.bashrc
