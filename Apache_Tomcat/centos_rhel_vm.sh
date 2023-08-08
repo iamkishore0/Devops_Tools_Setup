@@ -1,7 +1,7 @@
 #!/bin/bash
 
 yum install wget unzip java -y 
-wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.90/bin/apache-tomcat-8.5.91.zip
+wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.91/bin/apache-tomcat-8.5.91.zip
 unzip apache-tomcat-8.5.91.zip
 rm apache-tomcat-8.5.91/conf/tomcat-users.xml
 rm apache-tomcat-8.5.91/webapps/manager/META-INF/context.xml
