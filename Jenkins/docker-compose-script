@@ -64,3 +64,6 @@ sudo systemctl start docker-compose-app.service
 
 # Update all installed packages to the latest version
 sudo yum update -y
+
+#Get jenkins intialAdminPassword
+docker exec -it jenkins cat /var/jenkins_home/secrets/initialAdminPassword
