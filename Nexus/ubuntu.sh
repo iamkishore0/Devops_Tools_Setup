@@ -1,4 +1,4 @@
-apt-get install wget -y && apt-get install unzip -y && apt-get install java -y &&
+apt-get install wget -y && apt-get install unzip -y  &&
 
 wget https://download.sonatype.com/nexus/oss/nexus-2.14.4-03-bundle.zip &&
 
